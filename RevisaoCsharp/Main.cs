@@ -37,6 +37,9 @@ namespace MyApp
 					case 3:
 						TextEditor.Menu();
 						break;
+					case 4:
+						Clock.Menu();
+						break;
 					default:
 						break;
 				}
@@ -52,7 +55,8 @@ namespace MyApp
                 My_dict1.Add(1, "Calculator");
 				My_dict1.Add(2, "Stopwatch");
 				My_dict1.Add(3, "TextEditor");
-                return My_dict1;
+				My_dict1.Add(4, "Clock");
+				return My_dict1;
 			}
         }
 
